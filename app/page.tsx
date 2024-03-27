@@ -27,7 +27,7 @@ const HomePage = () => {
       Stahelski in his directional debut from a screenplay by Derek Kolstad.</h6>
     </div>
 
-    <div className='mt-6 flex justify-between ml-[500px] mr-[500px]'>
+    <div className='mt-6 flex items-center justify-center gap-[80px]'>
     <FaFacebook /> 
     <IoLogoYoutube />
     <IoLogoYoutube />
@@ -40,7 +40,7 @@ const HomePage = () => {
       <h6 className=" w-[90%] m-auto mt-10 text-white font-bold font-serif">Services I Offer</h6>
     </div>
     <div>
-      <h6 className=" w-[90%] m-auto text-[11px] mt-5 text-white font-serif">Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster losef Tarasov (Alfie Allen) and his thugs steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, losef's father (Michael Nyqvist) - John's former colleague - puts a huge bounty on John's head.</h6>
+      <h6 className=" w-[90%] m-auto text-[11px] mt-5 text-white font-serif">Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster losef Tarasov (Alfie Allen) and his thugs steal Johns prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, losefs father (Michael Nyqvist) - Johns former colleague - puts a huge bounty on Johns head.</h6>
     </div>
     <div className=' mt-16 flex justify-between ml-[70px] mr-[70px] '>
      
@@ -48,8 +48,8 @@ const HomePage = () => {
       <h6 className=' text-black flex justify-center'><FaPencilRuler  size={30} className='mt-5 ' />
       </h6>
         <p className='mt-10 text-xs pr-3 pl-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit fugiat numquam iste optio aspernatur nisi doloribus, fugit illum quisquam omnis.</p>
-
       </div>
+      
       <div className="card2 rounded-md  text-black h-60 w-80 bg-white ">
       <h6 className=' text-black flex justify-center'><FaBriefcaseMedical  size={30} className='mt-5 ' />
       </h6>
@@ -67,19 +67,19 @@ const HomePage = () => {
     <h6 className=" w-[90%] m-auto mt-10 text-white font-bold font-serif">Services I Offer</h6>
     </div>
     <div>
-      <h6 className=" w-[90%] m-auto text-[11px] mt-5 text-white font-serif">Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster losef Tarasov (Alfie Allen) and his thugs steal John's prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, losef's father (Michael Nyqvist) - John's former colleague - puts a huge bounty on John's head.</h6>
+      <h6 className=" w-[90%] m-auto text-[11px] mt-5 text-white font-serif">Legendary assassin John Wick (Keanu Reeves) retired from his violent career after marrying the love of his life. Her sudden death leaves John in deep mourning. When sadistic mobster losef Tarasov (Alfie Allen) and his thugs steal Johns prized car and kill the puppy that was a last gift from his wife, John unleashes the remorseless killing machine within and seeks vengeance. Meanwhile, losefs father (Michael Nyqvist) - Johns former colleague - puts a huge bounty on Johns head.</h6>
     </div>
-    <div className=' flex justify-between mt-8'>
-      <img src="/images/image1.jpg" alt="" className=" ml-[100px] mr-[10px] h-[300px] w-[500px]"/>
-      <img src="/images/image2.jpg" alt="" className=" ml-[40px] mr-[100px] h-[300px] w-[500px]"/>
+    <div className=' flex justify-center mt-8 gap-16'>
+      <img src="/images/image1.jpg" alt="" className="  h-[300px] w-[500px] "/>
+      <img src="/images/image2.jpg" alt="" className="  h-[300px] w-[500px] "/>
     </div>
-    <div className=' flex justify-between mt-8'>
-      <img src="/images/image3.jpg" alt="" className=" ml-[100px] mr-[10px] h-[300px] w-[500px]"/>
-      <img src="/images/image4.jpg" alt="" className=" ml-[40px] mr-[100px] h-[300px] w-[500px]"/>
+    <div className=' flex justify-between mt-8 gap-16'>
+      <img src="/images/image3.jpg" alt="" className="  h-[300px] w-[500px]"/>
+      <img src="/images/image4.jpg" alt="" className="  h-[300px] w-[500px]"/>
     </div>
-    <div className=' flex justify-between mt-8 pb-8'>
-      <img src="/images/image5.jpg" alt="" className=" ml-[100px] mr-[10px] h-[300px] w-[500px]"/>
-      <img src="/images/image6.jpg" alt="" className=" ml-[40px] mr-[100px] h-[300px] w-[500px]"/>
+    <div className=' flex justify-between mt-8 gap-16'>
+      <img src="/images/image5.jpg" alt="" className="  h-[300px] w-[500px]"/>
+      <img src="/images/image6.jpg" alt="" className="  h-[300px] w-[500px]"/>
     </div>
 
     
